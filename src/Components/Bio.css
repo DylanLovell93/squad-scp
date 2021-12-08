@@ -1,0 +1,50 @@
+/* Default Css */
+
+.Bio {
+  background-color: blue;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Dylan's Css */
+
+.BioDylan {
+  background-color: orange;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Melissa's Css */
+
+.BioMelissa {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Bill's Css */
+
+.BioBill {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Angie's Css */
+
+.BioAngie {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Bryant's Css */
+
+.BioBryant {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+/* Sev's Css */
+
+.BioSev {
+  grid-column-start: 2;
+  grid-column-end: 6;
+}

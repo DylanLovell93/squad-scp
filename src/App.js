@@ -1,5 +1,9 @@
 import { Component } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Nav from './Components/Nav';
+import Bio from './Components/Bio';
+import Sidebar from './Components/Sidebar';
 
 class App extends Component {
   constructor() {
@@ -8,7 +12,15 @@ class App extends Component {
   }
 
   render() {
-    return <div className="App">Initial project</div>;
+    return (
+      <div className="App">
+        <Nav />
+        <Sidebar />
+        <Routes>
+          <Route path="/:Name" element={<Bio />} />
+        </Routes>
+      </div>
+    );
   }
 }
 
