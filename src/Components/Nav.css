@@ -1,6 +1,10 @@
 .Nav {
-  background-color: red;
+  background-color: rgb(36, 36, 36);
   grid-column-start: 1;
   grid-column-end: 6;
-  height: 10vh;
+  height: 50px;
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  justify-content: space-between;
 }

@@ -1,0 +1,12 @@
+.Hamburger {
+  border: 2px solid white;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.Hamburger svg {
+  height: 100%;
+  width: 100%;
+}
