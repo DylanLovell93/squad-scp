@@ -1,0 +1,8 @@
+.Logo {
+  height: 40px;
+  width: 340px;
+  align-self: center;
+}
+.Logo:hover {
+  cursor: default;
+}

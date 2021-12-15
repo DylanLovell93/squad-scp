@@ -1,0 +1,14 @@
+@font-face {
+  font-family: DreamMMA;
+  src: url(../../../fonts/Dream\ MMA.ttf);
+}
+
+.Letter {
+  font-family: DreamMMA;
+  color: white;
+  font-size: 50px;
+  user-select: none;
+}
+.Letter:hover {
+  color: turquoise;
+}

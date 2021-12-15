@@ -1,5 +1,5 @@
 import './DropDown.css';
-import fellowData from '../data/data.js';
+import fellowData from '../../data/data.js';
 import { Link } from 'react-router-dom';
 
 const DropDown = () => {
