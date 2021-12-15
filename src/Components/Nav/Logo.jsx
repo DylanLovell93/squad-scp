@@ -1,7 +1,12 @@
 import './Logo.css';
+import Letter from './Logo/Letter';
 
 const Logo = () => {
-  return <div className="Logo"></div>;
+  const word = 'abbs.md';
+  const editedWord = word
+    .split('')
+    .map((char) => <Letter singleLetter={char} />);
+  return <div className="Logo">{editedWord}</div>;
 };
 
 export default Logo;
