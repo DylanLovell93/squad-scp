@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './Sidebar.css';
-import data from '../data/data';
+import data from '../../data/data.js';
 import { Link } from 'react-router-dom';
 
 class Sidebar extends Component {

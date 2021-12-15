@@ -1,0 +1,49 @@
+/* Default Css */
+
+.Bio {
+  background-color: blue;
+  margin: 0px auto;
+}
+
+/* Dylan's Css */
+
+.BioDylan {
+  background-color: orange;
+  width: 600px;
+  height: calc(100vh - 50px);
+}
+
+.BioDylan img {
+  width: 360px;
+  height: 360px;
+}
+
+/* Melissa's Css */
+
+.BioMelissa {
+  background-color: turquoise;
+}
+
+/* Bill's Css */
+
+.BioBill {
+  background-color: turquoise;
+}
+
+/* Angie's Css */
+
+.BioAngie {
+  background-color: turquoise;
+}
+
+/* Bryant's Css */
+
+.BioBryant {
+  background-color: turquoise;
+}
+
+/* Sev's Css */
+
+.BioSev {
+  background-color: tomato;
+}

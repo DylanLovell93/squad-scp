@@ -1,5 +1,5 @@
 import './Logo.css';
-import Letter from './Logo/Letter';
+import Letter from './Letter/Letter.jsx';
 
 const Logo = () => {
   const word = 'abbs.md';
