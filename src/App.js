@@ -1,9 +1,8 @@
 import { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './Components/Nav';
-import Bio from './Components/Bio';
-import Sidebar from './Components/Sidebar';
+import Nav from './Components/.Nav/Nav';
+import Bio from './Components/.Bio/Bio';
 
 class App extends Component {
   constructor() {
@@ -42,7 +41,6 @@ class App extends Component {
           toggleDropMenu={this.toggleDropMenu}
           state={this.state}
         />
-        <Sidebar />
         <Routes>
           <Route path="/:Name" element={<Bio />} state={this.state} />
         </Routes>

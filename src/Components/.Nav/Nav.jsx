@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import './Nav.css';
-import Logo from './Nav/Logo';
-import Hamburger from './Nav/Hamburger';
-import DropDown from './Nav/DropDown';
+import Logo from './Logo/Logo';
+import Hamburger from './Hamburger/Hamburger';
+import DropDown from './DropDown/DropDown';
 
 class Nav extends Component {
   constructor() {
