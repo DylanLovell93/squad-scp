@@ -1,15 +1,9 @@
 import './DropDown.css';
 import fellowData from '../../../data/data';
-import { Link } from 'react-router-dom';
+import ListItem from './ListItem/ListItem';
 
 const DropDown = () => {
-  const links = fellowData.map((fellow) => (
-    <li>
-      <Link to={'/' + fellow.firstName}>
-        {fellow.firstName + ' ' + fellow.lastName}
-      </Link>
-    </li>
-  ));
+  const links = fellowData.map((fellow) => <ListItem fellow={fellow} />);
   return (
     <div className="DropDown">
       <ul>{links}</ul>

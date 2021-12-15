@@ -11,7 +11,11 @@ const Bio = () => {
   const { firstName, lastName, img, story, role } = fellowInfo;
   return (
     <div className={'Bio' + ' ' + 'Bio' + Name}>
-      <img src={img} alt={`Image of ${firstName + ' ' + lastName}`}></img>
+      <img
+        className="Profile"
+        src={img}
+        alt={`Image of ${firstName + ' ' + lastName}`}
+      ></img>
       <h2 className="Name">{firstName + ' ' + lastName}</h2>
       <h3 className="Role">{role}</h3>
       <p className="Story">{story}</p>
