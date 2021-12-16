@@ -16,7 +16,7 @@ class Nav extends Component {
       <div className="Nav">
         <Hamburger toggleDropMenu={toggleDropMenu} dropMenu={dropMenu} />
         <Logo />
-        {dropMenu && <DropDown />}
+        {dropMenu && <DropDown toggleDropMenu={toggleDropMenu} />}
       </div>
     );
   }
