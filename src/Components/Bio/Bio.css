@@ -46,6 +46,54 @@
 
 /* Sev's Css */
 
-.BioSev {
-  background-color: tomato;
+.BioSara {
+  background-color: #dbf4db;
+  width: 100%;
+  max-width: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 250px 20px 250px;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.BioSara h2.Name {
+  font-size: 70px;
+  padding-top: 50px;
+  background-color: #184b11;
+  background: conic-gradient(
+    #456d29 16.666%,
+    #526d1c 16.666%,
+    #41e146 33.333%,
+    #43f1a0 33.333%,
+    #236c0f 50%,
+    #364507 50%,
+    #6e9862 66.666%,
+    #479879 66.666%,
+    #31642e 83.333%,
+    #2b3409 83.333%
+  );
+  background-size: 47%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.BioSara img {
+  box-shadow: 0px 2px 64px rgba(183, 17, 17, 0.64);
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 50vh;
+  width: 50vh;
+}
+
+.BioSara p.Story {
+  background-color: #dbf4dba8;
+  border-radius: 20px;
+  padding: 4px;
 }
