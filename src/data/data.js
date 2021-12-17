@@ -1,11 +1,11 @@
 const data = [
   {
     // * Angie's Data * //
-    firstName: '',
-    lastName: '',
-    role: '',
-    story: '',
-    img: '',
+    firstName: undefined,
+    lastName: undefined,
+    role: undefined,
+    story: undefined,
+    img: undefined,
   },
   {
     // * Bryant's Data * //
@@ -14,15 +14,15 @@ const data = [
     role: 'Co-Leader',
     story:
       ' My whole life until I got to my senior year of high school I wanted to be a doctor but for some reason that year it just wasn’t the same. I had done programs in Hospitals like Mount Sinai to prepare myself for this path which I believe was the right one for me but somehow that senior year my love for it just felt out the window. I dwindle in college for the next three years taking classes trying to find my passion but I didn’t. That’s when a cousin of mines told me about pursuit and coding. I didn’t think that I was going to like coding at all but through pursuit and hard work, I have come to like it a lot. I wouldn’t change anything about my past, of course, I would have liked to learn this was what I like to do earlier but I have to own my pursuit.',
-    img: '',
+    img: undefined,
   },
   {
     // * Bill's Data * //
-    firstName: '',
-    lastName: '',
-    role: '',
-    story: '',
-    img: '',
+    firstName: 'Bill',
+    lastName: undefined,
+    role: undefined,
+    story: undefined,
+    img: undefined,
   },
   {
     // * Sev's Data * //
@@ -35,11 +35,11 @@ const data = [
   },
   {
     // * Melissa's Data * //
-    firstName: '',
-    lastName: '',
-    role: '',
-    story: '',
-    img: '',
+    firstName: undefined,
+    lastName: undefined,
+    role: undefined,
+    story: undefined,
+    img: undefined,
   },
   {
     // * Dylan's Data * //

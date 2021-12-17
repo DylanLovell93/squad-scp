@@ -3,6 +3,8 @@
 .Bio {
   background-color: blue;
   margin: 0px auto;
+  width: 600px;
+  height: calc(100vh - 50px);
 }
 
 /* Dylan's Css */
