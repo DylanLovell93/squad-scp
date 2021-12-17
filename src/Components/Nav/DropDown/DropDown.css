@@ -1,0 +1,27 @@
+.DropDown {
+  background-color: rgb(24, 24, 24);
+  padding: 10px;
+  height: auto;
+  width: 300px;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  border: 2px solid rgb(200, 200, 200);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-sizing: border-box;
+  border-top: none;
+}
+.DropDown ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: auto;
+}
+.DropDown a,
+.DropDown a:visited,
+.DropDown a:hover,
+.DropDown a:active {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}

@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import Nav from './Components/.Nav/Nav';
-import Bio from './Components/.Bio/Bio';
+import Nav from './Components/Nav/Nav';
+import Bio from './Components/Bio/Bio';
 
 class App extends Component {
   constructor() {
