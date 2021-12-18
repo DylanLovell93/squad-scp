@@ -12,6 +12,7 @@
 .Bio .Banner {
   width: 100%;
   height: 200px;
+  margin-top: 50px;
   margin-bottom: -75px;
   object-fit: cover;
   object-position: top left;
