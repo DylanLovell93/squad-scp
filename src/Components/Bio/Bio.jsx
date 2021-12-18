@@ -1,9 +1,7 @@
 import './Bio.css';
 import { useParams } from 'react-router';
-import { Routes, Route } from 'react-router-dom';
 import data from '../../data/data.js';
 import example from '../.example/exampleFellow';
-import pursuitLogo from './pursuitLogo.jpeg';
 
 const Bio = () => {
   let { Name } = useParams();
@@ -14,6 +12,7 @@ const Bio = () => {
     defaultImg,
     defaultStory,
     defaultRole,
+    defaultUseBanner,
     defaultBanner,
   } = example;
   const {
@@ -22,11 +21,13 @@ const Bio = () => {
     img = defaultImg,
     story = defaultStory,
     role = defaultRole,
+    useBanner = defaultUseBanner,
     banner = defaultBanner,
   } = fellowInfo;
+  const fellowBanner = <img className="Banner" src={banner} />;
   return (
     <div className={'Bio' + ' ' + 'Bio' + Name}>
-      {<img className="Banner" src={pursuitLogo} />}
+      {useBanner && fellowBanner}
       <img
         className="Profile"
         src={img}
