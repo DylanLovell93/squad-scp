@@ -1,47 +1,79 @@
 /* Default Css */
 
 .Bio {
-  background-color: blue;
+  background-color: rgb(24, 24, 24);
   margin: 0px auto;
   width: 600px;
-  height: calc(100vh - 50px);
+  height: 100vh;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 100px -10px white;
+}
+
+.Bio .Banner {
+  width: 100%;
+  height: 200px;
+  margin-bottom: -75px;
+  object-fit: cover;
+  object-position: top left;
+}
+
+.Bio .Profile {
+  height: 135px;
+  width: 135px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px solid rgb(24, 24, 24);
+  margin: 0px 20px;
+}
+.Bio .Name {
+  height: auto;
+  width: 100%;
+  padding: 20px auto;
+  margin: 10px 30px;
+  color: white;
+  box-sizing: border-box;
+}
+.Bio .Role {
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  margin: 0px 30px;
+  padding: 20px auto;
+  color: gray;
+}
+
+.Bio .Story {
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  padding: 20px auto;
+  color: white;
+  margin: 16px 30px;
 }
 
 /* Dylan's Css */
 
 .BioDylan {
-  background-color: orange;
-  width: 600px;
-  height: calc(100vh - 50px);
-}
-
-.BioDylan img {
-  width: 360px;
-  height: 360px;
 }
 
 /* Melissa's Css */
 
 .BioMelissa {
-  background-color: turquoise;
 }
 
 /* Bill's Css */
 
 .BioBill {
-  background-color: turquoise;
 }
 
 /* Angie's Css */
 
 .BioAngie {
-  background-color: turquoise;
 }
 
 /* Bryant's Css */
 
 .BioBryant {
-  background-color: turquoise;
 }
 
 /* Sev's Css */
