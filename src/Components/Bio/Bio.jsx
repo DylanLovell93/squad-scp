@@ -1,6 +1,5 @@
 import './Bio.css';
 import { useParams } from 'react-router';
-import { Routes, Route } from 'react-router-dom';
 import data from '../../data/data.js';
 import example from '../.example/exampleFellow';
 
@@ -13,6 +12,7 @@ const Bio = () => {
     defaultImg,
     defaultStory,
     defaultRole,
+    defaultUseBanner,
     defaultBanner,
   } = example;
   const {
@@ -21,13 +21,13 @@ const Bio = () => {
     img = defaultImg,
     story = defaultStory,
     role = defaultRole,
+    useBanner = defaultUseBanner,
     banner = defaultBanner,
   } = fellowInfo;
   const fellowBanner = <img className="Banner" src={banner} />;
   return (
     <div className={'Bio' + ' ' + 'Bio' + Name}>
-      {console.log(banner)}
-      {fellowBanner}
+      {useBanner && fellowBanner}
       <img
         className="Profile"
         src={img}
