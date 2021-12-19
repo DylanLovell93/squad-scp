@@ -1,52 +1,54 @@
-import { Component } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
+import { Routes, Route, useParams } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav/Nav';
 import Bio from './Components/Bio/Bio';
 
-class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      darkMode: true,
-      customCss: false,
-      dropMenu: false,
-    };
-  }
+const App = () => {
+  const { Name = 'Default' } = useParams();
 
-  toggleDark = () => {
-    this.setState({
-      darkMode: !this.state.darkMode,
+  const [state, setState] = useState({
+    darkMode: true,
+    customCss: false,
+    dropMenu: false,
+  });
+
+  const toggleDark = () => {
+    const { darkMode } = state;
+    setState({
+      ...state,
+      darkMode: !darkMode,
     });
   };
 
-  toggleCustom = () => {
-    this.setState({
-      customCss: !this.state.customCss,
+  const toggleCustom = () => {
+    const { customCss } = state;
+    setState({
+      ...state,
+      customCss: !customCss,
     });
   };
 
-  toggleDropMenu = () => {
-    this.setState({
-      dropMenu: !this.state.dropMenu,
+  const toggleDropMenu = () => {
+    const { dropMenu } = state;
+    setState({
+      dropMenu: !dropMenu,
     });
   };
 
-  render() {
-    return (
-      <div className="App">
-        <Nav
-          toggleCustom={this.toggleCustom}
-          toggleDark={this.toggleDark}
-          toggleDropMenu={this.toggleDropMenu}
-          state={this.state}
-        />
-        <Routes>
-          <Route path="/:Name" element={<Bio />} state={this.state} />
-        </Routes>
-      </div>
-    );
-  }
-}
+  return (
+    <div className={'App' + ' ' + Name}>
+      <Nav
+        toggleCustom={toggleCustom}
+        toggleDark={toggleDark}
+        toggleDropMenu={toggleDropMenu}
+        state={state}
+      />
+      <Routes>
+        <Route path="/*" element={<Bio />} state={state} />
+      </Routes>
+    </div>
+  );
+};
 
 export default App;
