@@ -25,7 +25,9 @@
   border-radius: 50%;
   border: 5px solid rgb(24, 24, 24);
   margin: 0px 20px;
+  object-fit: cover;
 }
+
 .Bio .Name {
   height: auto;
   width: 100%;
