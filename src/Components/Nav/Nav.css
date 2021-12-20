@@ -11,3 +11,7 @@
   z-index: 1;
   width: 100%;
 }
+
+.Light .Nav {
+  background-color: rgb(200, 200, 200);
+}

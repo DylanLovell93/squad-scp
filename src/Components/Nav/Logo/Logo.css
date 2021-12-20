@@ -6,3 +6,9 @@
 .Logo:hover {
   cursor: default;
 }
+.Logo a,
+.Logo a:hover,
+.Logo a:visited,
+.Logo a:active {
+  text-decoration: none;
+}

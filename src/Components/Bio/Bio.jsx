@@ -2,7 +2,7 @@ import './Bio.css';
 import { useParams } from 'react-router';
 import data from '../../data/data.js';
 import example from '../.example/exampleFellow';
-
+import groupData from '../../data/groupData';
 const Bio = () => {
   let { Name } = useParams();
   const fellowInfo = data.find((person) => person.firstName === Name) || {};
@@ -23,7 +23,7 @@ const Bio = () => {
     role = defaultRole,
     useBanner = defaultUseBanner,
     banner = defaultBanner,
-  } = fellowInfo;
+  } = Name ? fellowInfo : groupData;
   const fellowBanner = <img className="Banner" src={banner} />;
   return (
     <div className={'Bio' + ' ' + 'Bio' + Name}>

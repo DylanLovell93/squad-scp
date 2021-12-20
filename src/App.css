@@ -4,3 +4,7 @@
   height: 100vh;
   box-sizing: border-box;
 }
+
+.Light {
+  background-color: white;
+}

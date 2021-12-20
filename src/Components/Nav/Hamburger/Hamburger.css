@@ -10,3 +10,8 @@
   height: 100%;
   width: 100%;
 }
+
+/* Light Mode */
+.Light .Hamburger {
+  background-color: rgb(24, 24, 24);
+}
