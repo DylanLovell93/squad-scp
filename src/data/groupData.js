@@ -4,8 +4,8 @@ const groupData = {
   lastName: '',
   role: 'Pursuit Squad 3 & Software Engineering Team',
   story:
-    "This code will work you out! We're a team of software engineers who excel at collaboration on professional and technical levels.",
-  img: 'https://elements-cover-images-0.imgix.net/f2a589a0-e8ec-45ca-a5ae-3e850c607646?auto=compress%2Cformat&fit=max&w=710&s=b5c681dd9a7125ac8dbddc17a7d88e6d',
+    'Our code will work you out! Our squad excels on collaboration on the professional and technical levels, with high work ethics and expectations!',
+  img: 'https://cms-assets.tutsplus.com/cdn-cgi/image/width=630/uploads/users/2660/posts/32516/image/sports-logo-maker-featuring-for-a-fitness-center-1427-el1.jpg',
   useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
   banner: undefined,
 };

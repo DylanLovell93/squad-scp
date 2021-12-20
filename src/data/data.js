@@ -17,7 +17,7 @@ const data = [
     role: 'Co-Leader',
     story:
       ' My whole life until I got to my senior year of high school I wanted to be a doctor but for some reason that year it just wasn’t the same. I had done programs in Hospitals like Mount Sinai to prepare myself for this path which I believe was the right one for me but somehow that senior year my love for it just felt out the window. I dwindle in college for the next three years taking classes trying to find my passion but I didn’t. That’s when a cousin of mines told me about pursuit and coding. I didn’t think that I was going to like coding at all but through pursuit and hard work, I have come to like it a lot. I wouldn’t change anything about my past, of course, I would have liked to learn this was what I like to do earlier but I have to own my pursuit.',
-    img: 'https://puu.sh/IxbJL.jpg',
+    img: 'https://puu.sh/Ixu4C.png',
     useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
     banner: undefined,
   },
@@ -26,10 +26,12 @@ const data = [
     firstName: 'Billy',
     lastName: 'Dominique',
     role: 'Arbitrator/Monitor',
-    story: "When I was growing up, I found it very normal to not have a father around as it was just my mom, brother and I. I was too young to establish a memory of him so there was no one to miss, just some questions. He showed up one day when I was 10 and even took me and my brother on a single trip with his son. He then disappeared again after maybe a year or 2 and now I was mostly angry and filled with a bunch of different emotions. “Why did he come back?”, “what makes him stay with his family?”, “Did I do something to make him leave?”,”Am I just a financial obligation?”(well, maybe not those words at the time). It took some time but eventually my brother and I came to the same conclusion. The answer to those questions didn’t matter, what was important was that we would someday be good fathers and we were going to redefine our last name so that we could be proud to pass it down to our kids. Imagine growing up and while other kids wanted to be doctors, lawyers, and professional sports player, dreaming about being a good parent. You ever heard the term, “turn something out of nothin?”, we took an absent father and made 2 good dads. I’m still a work in progress but I’m trying to grow and get better everyday, I’m owning my pursuit.",
+    story:
+      'When I was growing up, I found it very normal to not have a father around as it was just my mom, brother and I. I was too young to establish a memory of him so there was no one to miss, just some questions. He showed up one day when I was 10 and even took me and my brother on a single trip with his son. He then disappeared again after maybe a year or 2 and now I was mostly angry and filled with a bunch of different emotions. “Why did he come back?”, “what makes him stay with his family?”, “Did I do something to make him leave?”,”Am I just a financial obligation?”(well, maybe not those words at the time). It took some time but eventually my brother and I came to the same conclusion. The answer to those questions didn’t matter, what was important was that we would someday be good fathers and we were going to redefine our last name so that we could be proud to pass it down to our kids. Imagine growing up and while other kids wanted to be doctors, lawyers, and professional sports player, dreaming about being a good parent. You ever heard the term, “turn something out of nothin?”, we took an absent father and made 2 good dads. I’m still a work in progress but I’m trying to grow and get better everyday, I’m owning my pursuit.',
     img: 'https://i.imgur.com/aGrNHq8.jpg',
     useBanner: true, //change this to true if you'd like to use a banner in general, if not, change to false.
-    banner: 'https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/27/w900X450/Design_Your_Own_Destiny.jpg?w=400&dpr=2.6',
+    banner:
+      'https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/27/w900X450/Design_Your_Own_Destiny.jpg?w=400&dpr=2.6',
   },
   {
     // * Sev's Data (banner is an optional choice, if you want to import one, paste it's url in the banner value)* //
@@ -48,7 +50,8 @@ const data = [
     firstName: 'Melissa',
     lastName: 'Lopez',
     role: 'Individual Contributor',
-    story: 'What does it mean to ‘Fail Forward’? It involves not understanding concepts right away. It means not getting the best grades on exams. It means that you can read code and translate it into Layman’s terms but struggle to convert it into Javascript. The list can go on and on. How do I move forward? I watch a lot of tutorials online. I consult with my peers and get different inputs from them. It means taking a ton of notes. I identify my strengths and weaknesses. I’m not afraid to fail. It gives me the opportunity to learn about myself and self-assess. I came into the program thinking that the work was going to be easy. To be honest, I’m glad it isn’t. I’ve learned so much between the summer and what is now, winter. The journey has been tough, but I’m still here, moving forward.',
+    story:
+      'What does it mean to ‘Fail Forward’? It involves not understanding concepts right away. It means not getting the best grades on exams. It means that you can read code and translate it into Layman’s terms but struggle to convert it into Javascript. The list can go on and on. How do I move forward? I watch a lot of tutorials online. I consult with my peers and get different inputs from them. It means taking a ton of notes. I identify my strengths and weaknesses. I’m not afraid to fail. It gives me the opportunity to learn about myself and self-assess. I came into the program thinking that the work was going to be easy. To be honest, I’m glad it isn’t. I’ve learned so much between the summer and what is now, winter. The journey has been tough, but I’m still here, moving forward.',
     img: 'https://i.imgur.com/BIkuvrE.jpeg',
     useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
     banner: undefined,
@@ -59,7 +62,7 @@ const data = [
     lastName: 'Lovell',
     role: 'Note Taker / Time Keeper',
     story:
-      "Hey there! I'm a lover of tech, music, and coffee! I always took everything apart as a kid, and always wanted to make it better. ",
+      "Hey there! I'm a lover of tech, music, and coffee! I always took everything apart as a kid, and always wanted to make it better. As the technical lead of this presentation, I focus was tested along with my technical skill in CSS. I've hit a lot of roadblocks, but learning how to overcome them has been an experience that will forever change my approach to not just coding, but team collaboration, and overall human interaction.",
     img: 'https://puu.sh/IxpU4.png',
     useBanner: true, //change this to true if you'd like to use a banner in general, if not, change to false.
     banner:
