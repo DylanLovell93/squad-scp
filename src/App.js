@@ -38,8 +38,9 @@ const App = () => {
   };
 
   const { darkMode } = state;
+  const mode = darkMode ? 'Dark' : 'Light';
   return (
-    <div className={'App' + ' ' + Name + ' ' + (darkMode ? 'Dark' : 'Light')}>
+    <div className={'App' + ' ' + Name + ' ' + mode + ' ' + Name + mode}>
       <Nav
         toggleCustom={toggleCustom}
         toggleDark={toggleDark}

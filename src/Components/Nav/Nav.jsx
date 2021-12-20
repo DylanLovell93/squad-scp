@@ -4,6 +4,7 @@ import Logo from './Logo/Logo';
 import Hamburger from './Hamburger/Hamburger';
 import DropDown from './DropDown/DropDown';
 import DarkMode from './DarkMode/DarkMode';
+import CustomStyle from './CustomStyle/CustomStyle';
 
 class Nav extends Component {
   constructor() {
@@ -13,7 +14,7 @@ class Nav extends Component {
   render() {
     const {
       toggleDark,
-      toggleCustomCss,
+      toggleCustom,
       toggleDropMenu,
       state: { darkMode, customCss, dropMenu },
     } = this.props;
@@ -21,6 +22,7 @@ class Nav extends Component {
       <div className="Nav">
         <Hamburger toggleDropMenu={toggleDropMenu} dropMenu={dropMenu} />
         <DarkMode toggleDark={toggleDark} darkMode={darkMode} />
+        {/* <CustomStyle toggleCustom={toggleCustom} customCss={customCss} /> */}
         <Logo />
         {dropMenu && <DropDown toggleDropMenu={toggleDropMenu} />}
       </div>

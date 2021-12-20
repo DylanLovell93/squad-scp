@@ -4,7 +4,8 @@ const data = [
     firstName: 'Angie',
     lastName: 'Guerrero',
     role: 'Co-Leader',
-    story: 'During my Fellowship at Pursuit, I have been struggling with understanding all of the concepts we have been learning. My ultimate goal is, for us all, to complete our Fellowship and start a career in technology. As the program has advanced, I have had the opportunity to work with most Fellows in my class. This has provided me with the opportunity to build strong relationships and to understand that we are all at different levels in our knowledge of technology. I have discovered, this is definitely a strength. The sense of community that we have created surrounding the idea of helping and supporting each other during this Fellowship has been very encouraging and helpful. As a result, I am confident that our continuing efforts to work as a team, will lead us to successfully complete our Pursuit Fellowship.',
+    story:
+      'During my Fellowship at Pursuit, I have been struggling with understanding all of the concepts we have been learning. My ultimate goal is, for us all, to complete our Fellowship and start a career in technology. As the program has advanced, I have had the opportunity to work with most Fellows in my class. This has provided me with the opportunity to build strong relationships and to understand that we are all at different levels in our knowledge of technology. I have discovered, this is definitely a strength. The sense of community that we have created surrounding the idea of helping and supporting each other during this Fellowship has been very encouraging and helpful. As a result, I am confident that our continuing efforts to work as a team, will lead us to successfully complete our Pursuit Fellowship.',
     img: 'https://i.imgur.com/3yDGDnt.jpg',
     useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
     banner: undefined,
@@ -52,15 +53,16 @@ const data = [
     banner: undefined,
   },
   {
-    // * Dylan's Data (banner is an optional choice, if you want to import one, paste it's urin the banner valuee!) * //
+    // * Dylan's Data (banner is an optional choice, if you want to import one, paste it's url the banner value!) * //
     firstName: 'Dylan',
     lastName: 'Lovell',
     role: 'Note Taker / Time Keeper',
     story:
-      'IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM ',
-    img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
-    useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
-    banner: undefined,
+      "Hey there! I'm a lover of tech, music, and coffee! I always took everything apart as a kid, and always wanted to make it better. ",
+    img: 'https://puu.sh/IxpU4.png',
+    useBanner: true, //change this to true if you'd like to use a banner in general, if not, change to false.
+    banner:
+      'https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80',
   },
 ];
 
