@@ -76,7 +76,27 @@
 
 /* Dylan's Css */
 
-.BioDylan {
+.Dylan .Bio {
+  background-color: rgb(0, 24, 24);
+}
+.Dylan .Bio .Banner {
+  object-position: bottom;
+}
+.Dylan .Bio .Profile {
+  border: 5px solid rgb(0, 24, 24);
+}
+
+.DylanLight .Bio {
+  background-color: rgb(220, 220, 220);
+  box-shadow: 0px 10px 100px 30px rgb(0, 54, 54);
+}
+
+.DylanLight .Bio .Profile {
+  border: 5px solid rgb(220, 220, 220);
+}
+
+.DylanLight .Bio .Banner {
+  filter: invert(0);
 }
 
 /* Melissa's Css */
@@ -86,22 +106,22 @@
 
 /* Bill's Css */
 
-.BioBill {
+.Bill .Bio {
 }
 
 /* Angie's Css */
 
-.BioAngie {
+.Angie .Bio {
 }
 
 /* Bryant's Css */
 
-.BioBryant {
+.Bryant .Bio {
 }
 
 /* Sev's Css */
 
-.BioSara {
+.Sara .Bio {
   background-color: #dbf4db;
   width: 100%;
   max-width: 940px;

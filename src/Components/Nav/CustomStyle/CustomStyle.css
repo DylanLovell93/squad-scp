@@ -1,19 +1,21 @@
-.DarkMode {
+/*Simple css to style it like a toggle switch*/
+.CustomStyle {
   display: flex;
   align-items: center;
 }
-.DarkMode .theme-switch {
+.CustomStyle .theme-switch {
   display: inline-block;
   height: 34px;
   position: relative;
   width: 60px;
 }
 
-.DarkMode .theme-switch input {
+.CustomStyle .theme-switch input {
   display: none;
 }
 
-.DarkMode .slider {
+.CustomStyle .slider {
+  background-color: #ccc;
   bottom: 0;
   cursor: pointer;
   left: 0;
@@ -23,7 +25,8 @@
   transition: 0.4s;
 }
 
-.DarkMode .slider:before {
+.CustomStyle .slider:before {
+  background-color: #fff;
   bottom: 4px;
   content: '';
   height: 26px;
@@ -33,21 +36,18 @@
   width: 26px;
 }
 
-.DarkMode input:checked + .slider {
-  background-color: rgb(0, 85, 81);
+.CustomStyle input:checked + .slider {
+  background-color: #66bb6a;
 }
 
-.DarkMode .theme-switch input:checked + .slider:before {
-  background-color: rgb(200, 200, 200);
+.CustomStyle input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-.DarkMode .slider.round {
-  background-color: rgb(200, 200, 200);
+.CustomStyle .slider.round {
   border-radius: 34px;
 }
 
-.DarkMode .slider.round:before {
-  background-color: rgb(1, 85, 81);
+.CustomStyle .slider.round:before {
   border-radius: 50%;
 }
