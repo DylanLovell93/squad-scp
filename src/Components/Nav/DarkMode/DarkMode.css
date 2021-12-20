@@ -51,3 +51,23 @@
   background-color: rgb(1, 85, 81);
   border-radius: 50%;
 }
+
+/* Sav's custom */
+.Sara .DarkMode input:checked + .slider {
+  background-color: rgb(0, 0, 80);
+}
+
+.Sara .DarkMode .theme-switch input:checked + .slider:before {
+  background-color: rgb(200, 200, 200);
+  transform: translateX(26px);
+}
+
+.Sara .DarkMode .slider.round {
+  background-color: rgb(200, 200, 200);
+  border-radius: 34px;
+}
+
+.Sara .DarkMode .slider.round:before {
+  background-color: rgb(0, 0, 80);
+  border-radius: 50%;
+}

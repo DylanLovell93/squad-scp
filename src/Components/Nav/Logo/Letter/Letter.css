@@ -21,3 +21,13 @@
 .Light .Logo .Letter:hover {
   color: rgb(1, 85, 81);
 }
+
+.Sara .Logo .Letter {
+  color: white;
+}
+.SaraLight .Logo .Letter {
+  color: rgb(24, 24, 24);
+}
+.Sara .Logo .Letter:hover {
+  color: rgb(0, 0, 80);
+}
