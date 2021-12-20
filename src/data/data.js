@@ -23,13 +23,13 @@ const data = [
   },
   {
     // * Bill's Data (banner is an optional choice, if you want to import one, paste it's url in the banner value)* //
-    firstName: 'Bill',
-    lastName: '',
-    role: undefined,
-    story: undefined,
-    img: undefined,
-    useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
-    banner: undefined,
+    firstName: 'Billy',
+    lastName: 'Dominique',
+    role: 'Arbitrator/Monitor',
+    story: "When I was growing up, I found it very normal to not have a father around as it was just my mom, brother and I. I was too young to establish a memory of him so there was no one to miss, just some questions. He showed up one day when I was 10 and even took me and my brother on a single trip with his son. He then disappeared again after maybe a year or 2 and now I was mostly angry and filled with a bunch of different emotions. “Why did he come back?”, “what makes him stay with his family?”, “Did I do something to make him leave?”,”Am I just a financial obligation?”(well, maybe not those words at the time). It took some time but eventually my brother and I came to the same conclusion. The answer to those questions didn’t matter, what was important was that we would someday be good fathers and we were going to redefine our last name so that we could be proud to pass it down to our kids. Imagine growing up and while other kids wanted to be doctors, lawyers, and professional sports player, dreaming about being a good parent. You ever heard the term, “turn something out of nothin?”, we took an absent father and made 2 good dads. I’m still a work in progress but I’m trying to grow and get better everyday, I’m owning my pursuit.",
+    img: 'https://i.imgur.com/aGrNHq8.jpg',
+    useBanner: true, //change this to true if you'd like to use a banner in general, if not, change to false.
+    banner: 'https://images.newindianexpress.com/uploads/user/imagelibrary/2021/2/27/w900X450/Design_Your_Own_Destiny.jpg?w=400&dpr=2.6',
   },
   {
     // * Sev's Data (banner is an optional choice, if you want to import one, paste it's url in the banner value)* //
