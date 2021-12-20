@@ -10,5 +10,14 @@
   user-select: none;
 }
 .Letter:hover {
-  color: turquoise;
+  color: rgb(1, 85, 81);
+}
+
+/* Light Mode */
+.Light .Logo .Letter {
+  color: rgb(24, 24, 24);
+}
+
+.Light .Logo .Letter:hover {
+  color: rgb(1, 85, 81);
 }

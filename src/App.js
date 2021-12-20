@@ -5,7 +5,7 @@ import Nav from './Components/Nav/Nav';
 import Bio from './Components/Bio/Bio';
 
 const App = () => {
-  const { Name = 'Default' } = useParams();
+  const { Name = 'Group' } = useParams();
 
   const [state, setState] = useState({
     darkMode: true,
@@ -32,12 +32,14 @@ const App = () => {
   const toggleDropMenu = () => {
     const { dropMenu } = state;
     setState({
+      ...state,
       dropMenu: !dropMenu,
     });
   };
 
+  const { darkMode } = state;
   return (
-    <div className={'App' + ' ' + Name}>
+    <div className={'App' + ' ' + Name + ' ' + (darkMode ? 'Dark' : 'Light')}>
       <Nav
         toggleCustom={toggleCustom}
         toggleDark={toggleDark}
