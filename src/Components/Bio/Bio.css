@@ -109,6 +109,10 @@
 .Bill .Bio {
 }
 
+.Bill .Bio .Banner {
+  filter: invert(0);
+}
+
 /* Angie's Css */
 
 .Angie .Bio {
