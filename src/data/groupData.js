@@ -4,8 +4,8 @@ const groupData = {
   lastName: '',
   role: 'Pursuit Squad 3 & Software Engineering Team',
   story:
-    'IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM IMPSUM ',
-  img: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png',
+    "This code will work you out! We're a team of software engineers who excel at collaboration on professional and technical levels.",
+  img: 'https://elements-cover-images-0.imgix.net/f2a589a0-e8ec-45ca-a5ae-3e850c607646?auto=compress%2Cformat&fit=max&w=710&s=b5c681dd9a7125ac8dbddc17a7d88e6d',
   useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
   banner: undefined,
 };
