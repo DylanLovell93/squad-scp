@@ -1,16 +1,33 @@
 import './Bio.css';
 import { useParams } from 'react-router';
 import data from '../../data/data.js';
-
+import example from '../.example/exampleFellow';
+import groupData from '../../data/groupData';
 const Bio = () => {
   let { Name } = useParams();
-  const fellowInfo = data.find((person) => person.firstName === Name);
-  if (!fellowInfo) {
-    return <div className="Bio">Fellow Not Found</div>;
-  }
-  const { firstName, lastName, img, story, role } = fellowInfo;
+  const fellowInfo = data.find((person) => person.firstName === Name) || {};
+  const {
+    defaultFirst,
+    defaultLast,
+    defaultImg,
+    defaultStory,
+    defaultRole,
+    defaultUseBanner,
+    defaultBanner,
+  } = example;
+  const {
+    firstName = defaultFirst,
+    lastName = defaultLast,
+    img = defaultImg,
+    story = defaultStory,
+    role = defaultRole,
+    useBanner = defaultUseBanner,
+    banner = defaultBanner,
+  } = Name ? fellowInfo : groupData;
+  const fellowBanner = <img className="Banner" src={banner} />;
   return (
     <div className={'Bio' + ' ' + 'Bio' + Name}>
+      {useBanner && fellowBanner}
       <img
         className="Profile"
         src={img}

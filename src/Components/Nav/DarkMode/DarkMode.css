@@ -1,0 +1,53 @@
+.DarkMode {
+  display: flex;
+  align-items: center;
+}
+.DarkMode .theme-switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.DarkMode .theme-switch input {
+  display: none;
+}
+
+.DarkMode .slider {
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.4s;
+}
+
+.DarkMode .slider:before {
+  bottom: 4px;
+  content: '';
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+.DarkMode input:checked + .slider {
+  background-color: rgb(0, 85, 81);
+}
+
+.DarkMode input:checked + .slider:before {
+  background-color: rgb(200, 200, 200);
+  transform: translateX(26px);
+}
+
+.DarkMode .slider.round {
+  background-color: rgb(200, 200, 200);
+  border-radius: 34px;
+}
+
+.DarkMode .slider.round:before {
+  background-color: rgb(1, 85, 81);
+  border-radius: 50%;
+}
