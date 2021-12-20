@@ -1,11 +1,11 @@
 const data = [
   {
     // * Angie's Data * //
-    firstName: '',
-    lastName: '',
-    role: '',
-    story: '',
-    img: '',
+    firstName: 'Angie',
+    lastName: 'Guerrero',
+    role: 'Co-Leader',
+    story: 'During my Fellowship at Pursuit, I have been struggling with understanding all of the concepts we have been learning. My ultimate goal is, for us all, to complete our Fellowship and start a career in technology. As the program has advanced, I have had the opportunity to work with most Fellows in my class. This has provided me with the opportunity to build strong relationships and to understand that we are all at different levels in our knowledge of technology. I have discovered, this is definitely a strength. The sense of community that we have created surrounding the idea of helping and supporting each other during this Fellowship has been very encouraging and helpful. As a result, I am confident that our continuing efforts to work as a team, will lead us to successfully complete our Pursuit Fellowship.',
+    img: 'https://i.imgur.com/3yDGDnt.jpg',
   },
   {
     // * Bryant's Data * //
