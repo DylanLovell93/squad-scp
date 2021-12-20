@@ -122,6 +122,29 @@
 /* Sev's Css */
 
 .Sara .Bio {
+  background-color: rgb(0, 0, 24);
+}
+.Sara .Bio .Banner {
+  object-position: bottom;
+}
+.Sara .Bio .Profile {
+  border: 5px solid rgb(0, 0, 24);
+}
+
+.SaraLight .Bio {
+  background-color: rgb(220, 220, 220);
+  box-shadow: 0px 10px 100px 30px rgb(0, 0, 54);
+}
+
+.SaraLight .Bio .Profile {
+  border: 5px solid rgb(220, 220, 220);
+}
+
+.SaraLight .Bio .Banner {
+  filter: invert(0);
+}
+
+/* .Sara .Bio {
   background-color: #dbf4db;
   width: 100%;
   max-width: 940px;
@@ -171,4 +194,4 @@
   background-color: #dbf4dba8;
   border-radius: 20px;
   padding: 4px;
-}
+} */

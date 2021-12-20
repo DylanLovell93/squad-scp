@@ -39,3 +39,11 @@
 .Light .DropDown a:active {
   color: rgb(24, 24, 24);
 }
+
+.Sara .Nav .DropDown {
+  background-color: rgb(0, 0, 24);
+}
+
+.SaraLight .Nav .DropDown {
+  background-color: rgb(220, 220, 220);
+}
