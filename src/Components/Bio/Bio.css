@@ -101,7 +101,12 @@
 
 /* Melissa's Css */
 
-.BioMelissa {
+.Melissa .Bio{
+  background-color: #91d9f3;
+}
+
+.Melissa .Bio .Profile {
+  border: 5px solid #fbcb44;
 }
 
 /* Bill's Css */
