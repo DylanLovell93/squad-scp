@@ -45,10 +45,10 @@ const data = [
   {
     // * Melissa's Data (banner is an optional choice, if you want to import one, paste it's url in the banner value)* //
     firstName: 'Melissa',
-    lastName: '',
-    role: undefined,
-    story: undefined,
-    img: undefined,
+    lastName: 'Lopez',
+    role: 'Individual Contributor',
+    story: 'What does it mean to ‘Fail Forward’? It involves not understanding concepts right away. It means not getting the best grades on exams. It means that you can read code and translate it into Layman’s terms but struggle to convert it into Javascript. The list can go on and on. How do I move forward? I watch a lot of tutorials online. I consult with my peers and get different inputs from them. It means taking a ton of notes. I identify my strengths and weaknesses. I’m not afraid to fail. It gives me the opportunity to learn about myself and self-assess. I came into the program thinking that the work was going to be easy. To be honest, I’m glad it isn’t. I’ve learned so much between the summer and what is now, winter. The journey has been tough, but I’m still here, moving forward.',
+    img: 'https://i.imgur.com/BIkuvrE.jpeg',
     useBanner: undefined, //change this to true if you'd like to use a banner in general, if not, change to false.
     banner: undefined,
   },
